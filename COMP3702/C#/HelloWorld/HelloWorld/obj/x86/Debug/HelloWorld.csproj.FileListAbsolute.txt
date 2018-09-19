@@ -1,0 +1,4 @@
+C:\Users\u113157\Desktop\COMP3702\C#\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\u113157\Desktop\COMP3702\C#\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\u113157\Desktop\COMP3702\C#\HelloWorld\HelloWorld\obj\x86\Debug\HelloWorld.exe
+C:\Users\u113157\Desktop\COMP3702\C#\HelloWorld\HelloWorld\obj\x86\Debug\HelloWorld.pdb
