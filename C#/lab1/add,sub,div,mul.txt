@@ -1,0 +1,45 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace lab1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int a, b;
+
+           
+
+                Console.Write("Enter The First Number: ");
+                a = int.Parse(Console.ReadLine());
+
+                Console.Write("Enter The Second Number: ");
+                b = int.Parse(Console.ReadLine());
+
+
+                Console.WriteLine(a + " + " + b + "= " + (a + b).ToString("0.00"));
+                Console.WriteLine(a + " - " + b + "= " + (a - b).ToString("0.00"));
+                if (b != 0)
+                {
+                    Console.WriteLine(a + " * " + b + "= " + (a * b).ToString("0.00"));
+                }
+                else
+                {
+                    Console.WriteLine("ERROR!! dividing by 0");
+                }
+                Console.WriteLine(a + " / " + b + "= " + (a / b).ToString("0.00"));
+                Console.WriteLine(a + " % " + b + "= " + (a % b).ToString("0.00"));
+
+           
+
+
+
+
+
+        }
+    }
+}

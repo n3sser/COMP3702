@@ -1,0 +1,4 @@
+C:\Users\u113157\Desktop\COMP3702\C#\lab1\lab1\bin\Debug\lab1.exe
+C:\Users\u113157\Desktop\COMP3702\C#\lab1\lab1\bin\Debug\lab1.pdb
+C:\Users\u113157\Desktop\COMP3702\C#\lab1\lab1\obj\x86\Debug\lab1.exe
+C:\Users\u113157\Desktop\COMP3702\C#\lab1\lab1\obj\x86\Debug\lab1.pdb

@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace lab1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            string str;
+            char first;
+            char last;
+
+            Console.Write("Enter a word: ");
+            str = Console.ReadLine();
+
+            first = str[0];
+            last = str[str.Length - 1];
+
+
+            str = last + str.Substring(1, str.Length-2)  + first;
+
+            Console.WriteLine(str);
+
+
+        }
+    }
+}
