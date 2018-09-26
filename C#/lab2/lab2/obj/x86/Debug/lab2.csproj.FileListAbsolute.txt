@@ -2,3 +2,4 @@ C:\Users\u113157\Desktop\COMP3702\C#\lab2\lab2\bin\Debug\lab2.exe
 C:\Users\u113157\Desktop\COMP3702\C#\lab2\lab2\bin\Debug\lab2.pdb
 C:\Users\u113157\Desktop\COMP3702\C#\lab2\lab2\obj\x86\Debug\lab2.exe
 C:\Users\u113157\Desktop\COMP3702\C#\lab2\lab2\obj\x86\Debug\lab2.pdb
+C:\Users\u113157\Desktop\COMP3702\C#\lab2\lab2\obj\x86\Debug\lab2.csprojResolveAssemblyReference.cache

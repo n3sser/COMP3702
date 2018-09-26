@@ -9,7 +9,7 @@ namespace lab2
     class Program
     {
 
-        delegate int operation(int n1, int n2);
+        delegate double operation(double n1, double n2);
 
         static int multiplication(int n1, int n2)
         {
@@ -18,11 +18,17 @@ namespace lab2
 
         static void Main(string[] args)
         {
-            //Student s = new Student("Nasser Alsubhi", "DB", "CS", "SQU", "nalsubhi996@gmail.com", 94944011);
-            //s.print();
 
-            operation op = multiplication;
-            Console.WriteLine(op(2,3));
+            List<Student> students = new List<Student>();
+
+
+            Student s = new Student("Nasser Alsubhi", "DB", "CS", "SQU", "nalsubhi996@gmail.com", 94944011);
+
+            students.Add(s);
+            Console.Write(s.toString());
+
+
+            Console.WriteLine("Number of object created: " + Student.count);
         }
 
 
@@ -32,7 +38,7 @@ namespace lab2
             private string fullName, course, subject, university, eMail;
             Nullable<decimal> phoneNumber;
             public static int count = 0;
-
+            
 
             public Nullable<decimal> PhoneNumber
             {
@@ -81,20 +87,117 @@ namespace lab2
                 university = us;
                 eMail = em;
                 phoneNumber = ph;
-                Student.count++;
+                count++;
             }
 
             public Student()
             {
-                Student.count++;
+                count++;
             }
 
-            public void print()
+            public string toString()
             {
-                Console.WriteLine("Student Name: " + fullName +"\nStudent Course: " + course + "\nStudent Subject: " + subject + "\nStudent University: " + university + "\nStudent E-mail: " + eMail + "\nStudent Phone: " + phoneNumber);
+                return("Student Name: " + fullName +"\nStudent Course: " + course + "\nStudent Subject: " + subject + "\nStudent University: " + university + "\nStudent E-mail: " + eMail + "\nStudent Phone: " + phoneNumber + "\n");
             }
+
+
 
         }
+
+        public class Person
+        {
+            string name;
+            int age;
+            double gpa;
+         
+        }
+
+        public class MobilePhone
+        {
+            public enum BatteryType {LiIon, NiMH, NiCd };
+            private string model;
+            private Nullable<decimal> price;
+            BatteryType battery;
+
+            public MobilePhone(string theModel)
+            {
+                model = theModel;
+                price = null;
+                battery = BatteryType.LiIon;
+            }
+
+            public MobilePhone(string theModel, Nullable<decimal> thePrice)
+            {
+                model = theModel;
+                price = thePrice;
+                battery = BatteryType.LiIon;
+            }
+
+            internal BatteryType Battery
+            {
+                get { return battery; }
+                set { battery = value; }
+            }
+            Screen s;
+
+            public string Model
+            {
+                get { return model; }
+                set { model = value; }
+            }
+  
+
+            public Nullable<decimal> Price
+            {
+                get { return price; }
+                set { price = value; }
+            }
+           
+           
+        }
+
+        public class Battery{
+            private string model;
+            private int hoursTalk;
+            private string idleTime;
+
+            public string Model
+            {
+                get { return model; }
+                set { model = value; }
+            }
+
+            public string IdleTime
+            {
+                get { return idleTime; }
+                set { idleTime = value; }
+            }
+
+            public int HoursTalk
+            {
+                get { return hoursTalk; }
+                set { hoursTalk = value; }
+            }
+        }
+
+        public class Screen{
+
+            private double size;
+            private string color;
+
+            public double Size
+            {
+                get { return size; }
+                set { size = value; }
+            }
+            
+            public string Color
+            {
+                get { return color; }
+                set { color = value; }
+            }
+        }
+
 
     }
 
