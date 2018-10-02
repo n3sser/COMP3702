@@ -1,0 +1,8 @@
+C:\Users\u113157\Desktop\COMP3702\Wndows\App1\App1\bin\Debug\App1.exe
+C:\Users\u113157\Desktop\COMP3702\Wndows\App1\App1\bin\Debug\App1.pdb
+C:\Users\u113157\Desktop\COMP3702\Wndows\App1\App1\obj\x86\Debug\App1.Form1.resources
+C:\Users\u113157\Desktop\COMP3702\Wndows\App1\App1\obj\x86\Debug\App1.Properties.Resources.resources
+C:\Users\u113157\Desktop\COMP3702\Wndows\App1\App1\obj\x86\Debug\App1.csproj.GenerateResource.Cache
+C:\Users\u113157\Desktop\COMP3702\Wndows\App1\App1\obj\x86\Debug\App1.exe
+C:\Users\u113157\Desktop\COMP3702\Wndows\App1\App1\obj\x86\Debug\App1.pdb
+C:\Users\u113157\Desktop\COMP3702\Wndows\App1\App1\obj\x86\Debug\App1.Form2.resources
